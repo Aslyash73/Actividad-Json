@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Registro</title>
+	<link href="../css/footer css.css" rel="stylesheet" type="text/css">
+	<script src="formRegistro.js"></script>
+</head>
+
+<body>
+	<header>
+		<section>
+
+			<div jsname="I8J07e" class="TlfmSc YSH9J"><a  class="GAuSPc" jsname="jIujaf"
+					href="https://sites.google.com/d/1h2oLR-p-OoD8RhdwqJa69Z1HveT8ZVyz/p/1rzsy0VkCU69p42UtIdVEH_3BJ47iDxVD/edit"><span style="color: aliceblue;"
+						class="QTKDff">Universidad Ashed</span></a></div>
+			<div jsname="mADGA" class="zDUgLc"></div>
+		</section>
+	</header>
+
+</div>
+    
+</head>
+<nav>
+<h1 style="text-align:center"> <font face="Comic San"> UNIVERSIDAD ASHED</front></h1> </nav>
+</div>
+
+	<hr>
+	<div>
+		<h4>DIGITE SU IFORMACION PERSONAL</h4>
+		<input type="text" id="nombre" placeholder="Ingrese el nombre">
+		<input type="text" id="apellido" placeholder="Ingrese el apellido">
+		<input type="text" id="direccion" placeholder="Ingrese la dirección">
+		<input type="text" id="Id" placeholder="Ingrese la Identificacion">
+
+		 
+		<select name="" id="genero" placeholder="Ingrese el genero">
+			<option value="Masculino">Masculino</option>
+			<option value="Femenino">Femenino</option>
+			<option value="Prefiero no decirlo">P no decirlo</option>
+		</select>
+		
+		<br><br>
+		<button onclick="cargar()">Listar</button>
+		<button onclick="registrar()">Registrar</button>
+	</div>
+
+	<br>
+	<table border="1">
+		<thead>
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>Dirección</th>
+			<th>Genero</th>
+			<th>Identificación</th>
+
+		</thead>
+		<tbody id="usuarios">
+			<tr>
+				<td>juan</td>
+				<td>perez</td>
+				<td>calle 9</td>
+				<td>femenino</td>
+				<td>1002093474</td>
+
+			</tr>
+		</tbody>
+	</table>
+	<br><br>
+
+		<hr>
+		<h3>Coloca la fecha</h3>
+		<input type="date" name="miFecha" />
+		<br><br>
+		<h3>Coloca la hora</h3>
+		<input type="time" name="miHora" />
+
+		<script>
+			const id = document.querySelector('#Id');
+			id.addEventListener('keypress',function (e) {
+				if(!(e.key==='0'||e.key==='1'||e.key==='2'||e.key==='3'||e.key==='4'||e.key==='5'||e.key==='6'||e.key==='7'||e.key==='8'||e.key==='9')){
+					e.preventDefault();
+				}
+			})
+		</script>
+</body>
+<hr>
+<footer>
+	<div>
+		 <h2> Informacion de interes:</h2> 
+					 <thead>
+					
+							 www.Universidad ashed.com.co
+							 <br>
+							 Calle 75A-6-45
+							 <br>
+							 098-3285579 3043852023
+						 </div>
+						 
+					
+ </footer>
+</html>

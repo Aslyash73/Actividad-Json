@@ -1,0 +1,14 @@
+header {
+    /* heigh:665px; */
+    background-image: url("https://images.adsttc.com/media/images/519d/4779/b3fc/4b36/6500/000b/large_jpg/imagen_plaza_final.jpg?1369261941");
+background-size: 90rem;
+    
+  }
+
+footer{
+    align-self: flex-end;
+    background-image: url("https://images.adsttc.com/media/images/519d/4779/b3fc/4b36/6500/000b/large_jpg/imagen_plaza_final.jpg?1369261941");
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+}
